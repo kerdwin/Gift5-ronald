@@ -1,0 +1,29 @@
+body {background: #870000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff
+}
+#titulovideo{
+    display: flex;
+    align-items: center;
+    font-family: 'By the way', sans-serif;
+    font-size: 2cm;
+    justify-content: center;
+ 
+    text-transform: uppercase;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    
+}
+.videocurso {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+ .videocurso video{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 25rem;
+ }
+
