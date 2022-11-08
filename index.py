@@ -1,7 +1,8 @@
 from flask import Flask, request, redirect, url_for,render_template
 
 
-app = Flask (__name__)
+app=Flask(__name__,template_folder='Templates')
+
 @app.route('/')
 def home():
         return render_template('Home1.html')
