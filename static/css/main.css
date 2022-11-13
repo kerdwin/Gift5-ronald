@@ -40,7 +40,7 @@ color: #fff
 
  .videocurso video{
     display:flex;
-    position: absolute;
+    position: fixed;
     margin-top: 370px;
     align-items: center;
     justify-content: center;
@@ -49,6 +49,7 @@ color: #fff
 
  .jhon{
     display: flex;
+    position: relative;
     align-items: right;
     justify-content: right;
  }
