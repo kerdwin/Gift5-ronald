@@ -1,10 +1,23 @@
-body {background: #870000;  /* fallback for old browsers */
+body1 {background: #870000;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #190A05, #870000);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #190A05, #870000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #fff
 }
+body{
+background: rgb(121,9,9);
+background: linear-gradient(90deg, rgba(121,9,9,1) 10%, rgba(0,0,0,1) 52%);
+color: #fff
+}
+
+
+
 #titulovideo{
-    display: flex;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    margin-top: 80px;
     align-items: center;
     font-family: 'By the way', sans-serif;
     font-size: 2cm;
@@ -12,18 +25,32 @@ body {background: #870000;  /* fallback for old browsers */
  
     text-transform: uppercase;
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 3rem
     
 }
-.videocurso {
+
+
+
+    
+ .videocurso {
     display:flex;
     align-items: center;
     justify-content: center;
-}
+ }
+
  .videocurso video{
     display:flex;
+    position: fixed;
+    margin-top: 370px;
     align-items: center;
     justify-content: center;
-    height: 25rem;
+    height: 30rem;
+ }
+
+ .jhon{
+    display: flex;
+    position: relative;
+    align-items: right;
+    justify-content: right;
  }
 
